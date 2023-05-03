@@ -9,5 +9,6 @@ public class MapperProfile : Profile
     {
         CreateMap<Infrastructure.Models.Student, Student>().ReverseMap();
         CreateMap<Infrastructure.Models.Contact, Contact>().ReverseMap();
+        CreateMap<Infrastructure.Models.AppUser, AppUser>().ReverseMap();
     }
 }
